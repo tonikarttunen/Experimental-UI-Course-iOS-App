@@ -2,6 +2,6 @@
 
 Aalto University, 2016
 
-## iOS app for the practice assignment
+## iOS App for the Practice Assignment
 
-The app reads the acelerometer data from the iOS device and posts it to a REST API.
+The app reads the accelerometer data from the iOS device and posts it to a REST API.
