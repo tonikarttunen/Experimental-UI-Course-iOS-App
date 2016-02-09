@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF85CF753737F6A40FAEF172 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A64E5BEEAE4F11DB749516 /* Pods.framework */; };
+		E94943AD1C6A2728006AA549 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94943AC1C6A2728006AA549 /* CoreMotion.framework */; };
 		E9DA12C81C63B5C4008EBEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA12C71C63B5C4008EBEA4 /* AppDelegate.swift */; };
 		E9DA12CA1C63B5C4008EBEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA12C91C63B5C4008EBEA4 /* ViewController.swift */; };
 		E9DA12CD1C63B5C4008EBEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DA12CB1C63B5C4008EBEA4 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		16A64E5BEEAE4F11DB749516 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A398128A472DF4BB8CE92D96 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DCD0D6B2C565C3518CE37589 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E94943AC1C6A2728006AA549 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		E9DA12C41C63B5C3008EBEA4 /* Experimental-UI-Course-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Experimental-UI-Course-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DA12C71C63B5C4008EBEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DA12C91C63B5C4008EBEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94943AD1C6A2728006AA549 /* CoreMotion.framework in Frameworks */,
 				BF85CF753737F6A40FAEF172 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +150,7 @@
 		F13B9A35F00A6722B50CC02F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E94943AC1C6A2728006AA549 /* CoreMotion.framework */,
 				16A64E5BEEAE4F11DB749516 /* Pods.framework */,
 			);
 			name = Frameworks;
